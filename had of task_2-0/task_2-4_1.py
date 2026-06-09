@@ -1,0 +1,5 @@
+p = float(input("масса белков: "))
+f = float(input("масса жиров: "))
+c = float(input("масса углеводов: "))
+calories = (p*4) + (f*9) + (c*4)
+print(f"клорийность: {calories} ккал.")
