@@ -1,4 +1,3 @@
-user_input = "naglfar"
+user_input = input("word: ")
 processed_input = user_input.upper()
 print(user_input, processed_input, sep=" -> " )
-
